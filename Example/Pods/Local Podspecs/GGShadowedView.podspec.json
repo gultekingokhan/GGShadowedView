@@ -1,0 +1,22 @@
+{
+  "name": "GGShadowedView",
+  "version": "0.1.0",
+  "summary": "A short description of GGShadowedView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gultekingokhan/GGShadowedView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gultekingokhan": "gokhangultekin07@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gultekingokhan/GGShadowedView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GGShadowedView/Classes/**/*"
+}
