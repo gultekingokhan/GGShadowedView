@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GGShadowedView_Example' do
+  pod 'GGShadowedView', :path => '../'
+
+  target 'GGShadowedView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
