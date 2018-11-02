@@ -4,6 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/GGShadowedView.svg?style=flat)](https://cocoapods.org/pods/GGShadowedView)
 [![License](https://img.shields.io/cocoapods/l/GGShadowedView.svg?style=flat)](https://cocoapods.org/pods/GGShadowedView)
 [![Platform](https://img.shields.io/cocoapods/p/GGShadowedView.svg?style=flat)](https://cocoapods.org/pods/GGShadowedView)
+![Xcode 10.0+](https://img.shields.io/badge/Xcode-10.0%2B-blue.svg) 
+![iOS 10.0+](https://img.shields.io/badge/iOS-10.0%2B-orange.svg)
+![Swift 4.2+](https://img.shields.io/badge/Swift-4.2%2B-orange.svg)
 
 ## Example
 
