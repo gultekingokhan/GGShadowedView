@@ -1,5 +1,5 @@
 PODS:
-  - GGShadowedView (0.1.0)
+  - GGShadowedView (0.1.1)
 
 DEPENDENCIES:
   - GGShadowedView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGShadowedView: 1dff979f070adfbc49a2d019637dd5c75151ad6e
+  GGShadowedView: 0f43855cfd231d60bf00c080d28cf410050105aa
 
 PODFILE CHECKSUM: 4afd6b3e7f78981e86c50fa3b53fc87356dd7247
 
