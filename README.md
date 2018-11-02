@@ -9,7 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![Alt text](https://github.com/gultekingokhan/GGShadowedView/blob/master/Example/GGShadowedView/xcode-screenshot.png?raw=true "Example")
+
+## Usage
+Just set your UIView's class to `GGShadowedView` on an interface builder file. 
+
+You can update these properties from interface builder as designables:
+- [x] Corner radius 
+- [x] Background color
+- [x] Is tappable
+- [x] Shadow color
+
+🤙 Don't forget to try "tappable" option. It has a nice depth effect while tapping the view like a button.
 
 ## Installation
 
@@ -20,9 +31,12 @@ it, simply add the following line to your Podfile:
 pod 'GGShadowedView'
 ```
 
+## One last note
+👋 Please, don't hesitate for reaching me out. I wrote this library for my own needs in a very short time. So, it would be great to get feedback from you! 
+
 ## Author
 
-gultekingokhan, gokhangultekin07@hotmail.com
+Gokhan Gultekin, https://twitter.com/GultekinGokhan
 
 ## License
 
