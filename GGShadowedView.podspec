@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GGShadowedView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Lightweight pretty shadow library.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gultekingokhan' => 'ismailgokhangultekin@gmail.com' }
   s.source           = { :git => 'https://github.com/gultekingokhan/GGShadowedView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/gultekingokhan'
+  s.social_media_url = 'https://twitter.com/gultekingokhan'
   
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.2'

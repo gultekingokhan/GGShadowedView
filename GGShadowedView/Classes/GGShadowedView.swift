@@ -18,7 +18,7 @@ open class GGShadowedView: UIView {
     public var scaleRatio: CGFloat = 0.9
     public var scaleDuration: TimeInterval = 0.2
     public var startShadowOpacity: Float = 0.70
-    public var endShadowOpacity: Float = 0.60
+    public var endShadowOpacity: Float = 0.50
     
     @IBOutlet private var contentView: UIView!
     
@@ -64,6 +64,10 @@ open class GGShadowedView: UIView {
         }
     }
     
+    override open func prepareForInterfaceBuilder() {
+        commonInit()
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -83,6 +87,8 @@ open class GGShadowedView: UIView {
         
         addSubview(contentView)
         sendSubviewToBack(contentView)
+        
+        backgroundColor = UIColor.clear
         
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
