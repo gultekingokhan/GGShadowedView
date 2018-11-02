@@ -12,7 +12,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Alt text](https://github.com/gultekingokhan/GGShadowedView/blob/master/Example/GGShadowedView/xcode-screenshot.png?raw=true "Example")
+![Alt text](/GGShadowedView/blob/master/Example/GGShadowedView/xcode-screenshot.png "Example")
 
 ## Usage
 Just set your UIView's class to `GGShadowedView` on an interface builder file. 
