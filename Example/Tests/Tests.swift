@@ -1,5 +1,5 @@
 import XCTest
-import GGShadowedView
+//@testable import GGShadowedView
 
 class Tests: XCTestCase {
     
