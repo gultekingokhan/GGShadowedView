@@ -3,7 +3,8 @@
 "cache": "cocoapods",
 "podfile": "Example/Podfile",
 "script": [
-"xcodebuild test -workspace GGShadowedView.xcworkspace -scheme GGShadowedView -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'"
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/GGShadowedView.xcworkspace -scheme GGShadowedView-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- pod lib lint
 ],
 "language": "objective-c",
 "osx_image": "xcode10",
