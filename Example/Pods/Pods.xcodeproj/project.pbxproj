@@ -375,11 +375,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					96797E00759C41981E76BA03E051621D = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -576,39 +571,6 @@
 			};
 			name = Release;
 		};
-		3DDFB328AEEDDA3BE6853913B9244D1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D88B7E1F58E205D059BA3F46C05DDF /* GGShadowedView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGShadowedView/GGShadowedView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGShadowedView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGShadowedView/GGShadowedView.modulemap";
-				PRODUCT_MODULE_NAME = GGShadowedView;
-				PRODUCT_NAME = GGShadowedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5074450431553F5E868B07EA53A5DD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B1B3472B264430F671280CD3CDF4A6D /* Pods-GGShadowedView_Tests.debug.xcconfig */;
@@ -706,6 +668,40 @@
 			};
 			name = Debug;
 		};
+		7B7E2CEBDB127B4C11315ED8DC7B433F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D88B7E1F58E205D059BA3F46C05DDF /* GGShadowedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGShadowedView/GGShadowedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGShadowedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGShadowedView/GGShadowedView.modulemap";
+				PRODUCT_MODULE_NAME = GGShadowedView;
+				PRODUCT_NAME = GGShadowedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A7AD23655E17021804FC389619CA7904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A447EC6F61BBA0D88CB99569C4FA86D /* Pods-GGShadowedView_Tests.release.xcconfig */;
@@ -741,7 +737,7 @@
 			};
 			name = Release;
 		};
-		C6C847CEA7CD55B76E6E063FE5F207CE /* Release */ = {
+		C15F9BEB315BE28F58C7D66FA5F287DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14D88B7E1F58E205D059BA3F46C05DDF /* GGShadowedView.xcconfig */;
 			buildSettings = {
@@ -766,14 +762,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CAC5BB7E65B8173C3A073393ECBCBD6A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -876,8 +871,8 @@
 		D024464E9E1689836EF6A7924AE31B4C /* Build configuration list for PBXNativeTarget "GGShadowedView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DDFB328AEEDDA3BE6853913B9244D1C /* Debug */,
-				C6C847CEA7CD55B76E6E063FE5F207CE /* Release */,
+				C15F9BEB315BE28F58C7D66FA5F287DA /* Debug */,
+				7B7E2CEBDB127B4C11315ED8DC7B433F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

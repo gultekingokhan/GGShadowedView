@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "swift_version": "4",
+  "swift_version": "4.2",
   "source_files": "GGShadowedView/Classes/**/*",
   "resource_bundles": {
     "GGShadowedView": [
